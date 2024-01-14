@@ -6,7 +6,7 @@
 
 using std::cin; 
 using std::cout; 
-
+//TO DO: Validations for the point coordinates!!
 void FourSymmetric(int x, int y, int xc, int yc, int color)
 {
 	putpixel(xc + x, yc + y, color);
